@@ -963,7 +963,7 @@ export default class Carousel extends Component {
         if (!index || index < 0) {
             index = 0;
         } else if (itemsLength > 0 && index >= itemsLength) {
-            index = itemsLength - 1;
+         //   index = itemsLength - 1;
         }
 
         if (index !== this._previousActiveItem) {
